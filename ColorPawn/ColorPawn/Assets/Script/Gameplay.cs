@@ -56,7 +56,7 @@ public class Gameplay : MonoBehaviour
             livePawn.Add(Table.pawnList[i]);
     }
 
-    bool RegionEmptyControl(RaycastHit region)/* arguman olarak aldigi regionun bos olup olmadigini kontrol eder. */
+    bool RegionEmptyControl(RaycastHit region) /* arguman olarak aldigi regionun bos olup olmadigini kontrol eder. */
     {
         for (int i = 0; i < livePawn.Count; i++)
         {
